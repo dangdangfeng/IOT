@@ -1,0 +1,456 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8E8DC4FD219ADBD900E49BC6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E8DC4FC219ADBD900E49BC6 /* AppDelegate.m */; };
+		8E8DC500219ADBD900E49BC6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E8DC4FF219ADBD900E49BC6 /* ViewController.m */; };
+		8E8DC503219ADBD900E49BC6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E8DC501219ADBD900E49BC6 /* Main.storyboard */; };
+		8E8DC505219ADBDA00E49BC6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E8DC504219ADBDA00E49BC6 /* Assets.xcassets */; };
+		8E8DC508219ADBDA00E49BC6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E8DC506219ADBDA00E49BC6 /* LaunchScreen.storyboard */; };
+		8E8DC50B219ADBDA00E49BC6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E8DC50A219ADBDA00E49BC6 /* main.m */; };
+		8EB60EC2219C015B00F86415 /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EB60EBF219C015A00F86415 /* SVProgressHUD.m */; };
+		8EB60EC3219C015B00F86415 /* SVIndefiniteAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EB60EC0219C015A00F86415 /* SVIndefiniteAnimatedView.m */; };
+		8EB60EC4219C015B00F86415 /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 8EB60EC1219C015A00F86415 /* SVProgressHUD.bundle */; };
+		8EB60EF3219C01F300F86415 /* EasyToy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EB60EE4219C01F300F86415 /* EasyToy.m */; };
+		8EB60EF4219C01F300F86415 /* EasyOptions.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EB60EE9219C01F300F86415 /* EasyOptions.m */; };
+		8EB60EF5219C01F300F86415 /* EasyCallback.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EB60EEA219C01F300F86415 /* EasyCallback.m */; };
+		8EB60EF6219C01F300F86415 /* EasyPeripheralManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EB60EEB219C01F300F86415 /* EasyPeripheralManager.m */; };
+		8EB60EF7219C01F300F86415 /* EasyCentralManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EB60EEC219C01F300F86415 /* EasyCentralManager.m */; };
+		8EB60EF8219C01F300F86415 /* EasySpeaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EB60EED219C01F300F86415 /* EasySpeaker.m */; };
+		8EB60EF9219C01F300F86415 /* EasyRhythm.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EB60EEF219C01F300F86415 /* EasyRhythm.m */; };
+		8EB60EFA219C01F300F86415 /* EasyBluetooth.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EB60EF1219C01F300F86415 /* EasyBluetooth.m */; };
+		8EB60EFD219C022E00F86415 /* PeripheralInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EB60EFB219C022E00F86415 /* PeripheralInfo.m */; };
+		8EB60F02219C029800F86415 /* CharacteristicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EB60EFF219C029800F86415 /* CharacteristicViewController.m */; };
+		8EB60F03219C029800F86415 /* PeripheralViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EB60F00219C029800F86415 /* PeripheralViewController.m */; };
+		8EB60F2B219C518E00F86415 /* NSTimer+Add.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EB60F2A219C518E00F86415 /* NSTimer+Add.m */; };
+		8EBBFA2C21B232EF00962956 /* CBPeripheral+RSSI.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EBBFA2B21B232EF00962956 /* CBPeripheral+RSSI.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8E8DC4F8219ADBD900E49BC6 /* EasyBlue.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EasyBlue.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E8DC4FB219ADBD900E49BC6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8E8DC4FC219ADBD900E49BC6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8E8DC4FE219ADBD900E49BC6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8E8DC4FF219ADBD900E49BC6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8E8DC502219ADBD900E49BC6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8E8DC504219ADBDA00E49BC6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8E8DC507219ADBDA00E49BC6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8E8DC509219ADBDA00E49BC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E8DC50A219ADBDA00E49BC6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8EB60EBD219C015A00F86415 /* SVIndefiniteAnimatedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVIndefiniteAnimatedView.h; sourceTree = "<group>"; };
+		8EB60EBE219C015A00F86415 /* SVProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVProgressHUD.h; sourceTree = "<group>"; };
+		8EB60EBF219C015A00F86415 /* SVProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVProgressHUD.m; sourceTree = "<group>"; };
+		8EB60EC0219C015A00F86415 /* SVIndefiniteAnimatedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVIndefiniteAnimatedView.m; sourceTree = "<group>"; };
+		8EB60EC1219C015A00F86415 /* SVProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SVProgressHUD.bundle; sourceTree = "<group>"; };
+		8EB60EE2219C01F300F86415 /* EasyRhythm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EasyRhythm.h; sourceTree = "<group>"; };
+		8EB60EE3219C01F300F86415 /* EasySpeaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EasySpeaker.h; sourceTree = "<group>"; };
+		8EB60EE4219C01F300F86415 /* EasyToy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EasyToy.m; sourceTree = "<group>"; };
+		8EB60EE5219C01F300F86415 /* EasyCentralManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EasyCentralManager.h; sourceTree = "<group>"; };
+		8EB60EE6219C01F300F86415 /* EasyPeripheralManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EasyPeripheralManager.h; sourceTree = "<group>"; };
+		8EB60EE7219C01F300F86415 /* EasyDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EasyDefine.h; sourceTree = "<group>"; };
+		8EB60EE8219C01F300F86415 /* EasyBluetooth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EasyBluetooth.h; sourceTree = "<group>"; };
+		8EB60EE9219C01F300F86415 /* EasyOptions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EasyOptions.m; sourceTree = "<group>"; };
+		8EB60EEA219C01F300F86415 /* EasyCallback.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EasyCallback.m; sourceTree = "<group>"; };
+		8EB60EEB219C01F300F86415 /* EasyPeripheralManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EasyPeripheralManager.m; sourceTree = "<group>"; };
+		8EB60EEC219C01F300F86415 /* EasyCentralManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EasyCentralManager.m; sourceTree = "<group>"; };
+		8EB60EED219C01F300F86415 /* EasySpeaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EasySpeaker.m; sourceTree = "<group>"; };
+		8EB60EEE219C01F300F86415 /* EasyToy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EasyToy.h; sourceTree = "<group>"; };
+		8EB60EEF219C01F300F86415 /* EasyRhythm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EasyRhythm.m; sourceTree = "<group>"; };
+		8EB60EF0219C01F300F86415 /* EasyOptions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EasyOptions.h; sourceTree = "<group>"; };
+		8EB60EF1219C01F300F86415 /* EasyBluetooth.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EasyBluetooth.m; sourceTree = "<group>"; };
+		8EB60EF2219C01F300F86415 /* EasyCallback.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EasyCallback.h; sourceTree = "<group>"; };
+		8EB60EFB219C022E00F86415 /* PeripheralInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PeripheralInfo.m; sourceTree = "<group>"; };
+		8EB60EFC219C022E00F86415 /* PeripheralInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PeripheralInfo.h; sourceTree = "<group>"; };
+		8EB60EFE219C029800F86415 /* PeripheralViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PeripheralViewController.h; sourceTree = "<group>"; };
+		8EB60EFF219C029800F86415 /* CharacteristicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CharacteristicViewController.m; sourceTree = "<group>"; };
+		8EB60F00219C029800F86415 /* PeripheralViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PeripheralViewController.m; sourceTree = "<group>"; };
+		8EB60F01219C029800F86415 /* CharacteristicViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CharacteristicViewController.h; sourceTree = "<group>"; };
+		8EB60F29219C518D00F86415 /* NSTimer+Add.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSTimer+Add.h"; sourceTree = "<group>"; };
+		8EB60F2A219C518E00F86415 /* NSTimer+Add.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+Add.m"; sourceTree = "<group>"; };
+		8EBBFA2A21B232EF00962956 /* CBPeripheral+RSSI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CBPeripheral+RSSI.h"; sourceTree = "<group>"; };
+		8EBBFA2B21B232EF00962956 /* CBPeripheral+RSSI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CBPeripheral+RSSI.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8E8DC4F5219ADBD900E49BC6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8E8DC4EF219ADBD800E49BC6 = {
+			isa = PBXGroup;
+			children = (
+				8E8DC4FA219ADBD900E49BC6 /* EasyBlue */,
+				8E8DC4F9219ADBD900E49BC6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8E8DC4F9219ADBD900E49BC6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8E8DC4F8219ADBD900E49BC6 /* EasyBlue.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8E8DC4FA219ADBD900E49BC6 /* EasyBlue */ = {
+			isa = PBXGroup;
+			children = (
+				8EB60EBC219C015A00F86415 /* SVProgressHUD */,
+				8EB60EE1219C01F300F86415 /* objc */,
+				8EB60F01219C029800F86415 /* CharacteristicViewController.h */,
+				8EB60EFF219C029800F86415 /* CharacteristicViewController.m */,
+				8EB60EFE219C029800F86415 /* PeripheralViewController.h */,
+				8EB60F00219C029800F86415 /* PeripheralViewController.m */,
+				8EB60EFC219C022E00F86415 /* PeripheralInfo.h */,
+				8EB60EFB219C022E00F86415 /* PeripheralInfo.m */,
+				8E8DC4FB219ADBD900E49BC6 /* AppDelegate.h */,
+				8E8DC4FC219ADBD900E49BC6 /* AppDelegate.m */,
+				8E8DC4FE219ADBD900E49BC6 /* ViewController.h */,
+				8E8DC4FF219ADBD900E49BC6 /* ViewController.m */,
+				8E8DC501219ADBD900E49BC6 /* Main.storyboard */,
+				8E8DC504219ADBDA00E49BC6 /* Assets.xcassets */,
+				8E8DC506219ADBDA00E49BC6 /* LaunchScreen.storyboard */,
+				8E8DC509219ADBDA00E49BC6 /* Info.plist */,
+				8E8DC50A219ADBDA00E49BC6 /* main.m */,
+			);
+			path = EasyBlue;
+			sourceTree = "<group>";
+		};
+		8EB60EBC219C015A00F86415 /* SVProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				8EB60EBD219C015A00F86415 /* SVIndefiniteAnimatedView.h */,
+				8EB60EBE219C015A00F86415 /* SVProgressHUD.h */,
+				8EB60EBF219C015A00F86415 /* SVProgressHUD.m */,
+				8EB60EC0219C015A00F86415 /* SVIndefiniteAnimatedView.m */,
+				8EB60EC1219C015A00F86415 /* SVProgressHUD.bundle */,
+			);
+			path = SVProgressHUD;
+			sourceTree = "<group>";
+		};
+		8EB60EE1219C01F300F86415 /* objc */ = {
+			isa = PBXGroup;
+			children = (
+				8EBBFA2A21B232EF00962956 /* CBPeripheral+RSSI.h */,
+				8EBBFA2B21B232EF00962956 /* CBPeripheral+RSSI.m */,
+				8EB60F29219C518D00F86415 /* NSTimer+Add.h */,
+				8EB60F2A219C518E00F86415 /* NSTimer+Add.m */,
+				8EB60EE8219C01F300F86415 /* EasyBluetooth.h */,
+				8EB60EF1219C01F300F86415 /* EasyBluetooth.m */,
+				8EB60EF2219C01F300F86415 /* EasyCallback.h */,
+				8EB60EEA219C01F300F86415 /* EasyCallback.m */,
+				8EB60EE5219C01F300F86415 /* EasyCentralManager.h */,
+				8EB60EEC219C01F300F86415 /* EasyCentralManager.m */,
+				8EB60EE7219C01F300F86415 /* EasyDefine.h */,
+				8EB60EF0219C01F300F86415 /* EasyOptions.h */,
+				8EB60EE9219C01F300F86415 /* EasyOptions.m */,
+				8EB60EE6219C01F300F86415 /* EasyPeripheralManager.h */,
+				8EB60EEB219C01F300F86415 /* EasyPeripheralManager.m */,
+				8EB60EE2219C01F300F86415 /* EasyRhythm.h */,
+				8EB60EEF219C01F300F86415 /* EasyRhythm.m */,
+				8EB60EE3219C01F300F86415 /* EasySpeaker.h */,
+				8EB60EED219C01F300F86415 /* EasySpeaker.m */,
+				8EB60EEE219C01F300F86415 /* EasyToy.h */,
+				8EB60EE4219C01F300F86415 /* EasyToy.m */,
+			);
+			path = objc;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8E8DC4F7219ADBD900E49BC6 /* EasyBlue */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E8DC50E219ADBDA00E49BC6 /* Build configuration list for PBXNativeTarget "EasyBlue" */;
+			buildPhases = (
+				8E8DC4F4219ADBD900E49BC6 /* Sources */,
+				8E8DC4F5219ADBD900E49BC6 /* Frameworks */,
+				8E8DC4F6219ADBD900E49BC6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EasyBlue;
+			productName = EasyBlue;
+			productReference = 8E8DC4F8219ADBD900E49BC6 /* EasyBlue.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8E8DC4F0219ADBD800E49BC6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = easy;
+				TargetAttributes = {
+					8E8DC4F7219ADBD900E49BC6 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 8E8DC4F3219ADBD800E49BC6 /* Build configuration list for PBXProject "EasyBlue" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8E8DC4EF219ADBD800E49BC6;
+			productRefGroup = 8E8DC4F9219ADBD900E49BC6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8E8DC4F7219ADBD900E49BC6 /* EasyBlue */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8E8DC4F6219ADBD900E49BC6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E8DC508219ADBDA00E49BC6 /* LaunchScreen.storyboard in Resources */,
+				8E8DC505219ADBDA00E49BC6 /* Assets.xcassets in Resources */,
+				8E8DC503219ADBD900E49BC6 /* Main.storyboard in Resources */,
+				8EB60EC4219C015B00F86415 /* SVProgressHUD.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8E8DC4F4219ADBD900E49BC6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EB60F03219C029800F86415 /* PeripheralViewController.m in Sources */,
+				8EB60EC3219C015B00F86415 /* SVIndefiniteAnimatedView.m in Sources */,
+				8EB60EF9219C01F300F86415 /* EasyRhythm.m in Sources */,
+				8E8DC500219ADBD900E49BC6 /* ViewController.m in Sources */,
+				8EB60EFA219C01F300F86415 /* EasyBluetooth.m in Sources */,
+				8EB60EF4219C01F300F86415 /* EasyOptions.m in Sources */,
+				8EB60EC2219C015B00F86415 /* SVProgressHUD.m in Sources */,
+				8EBBFA2C21B232EF00962956 /* CBPeripheral+RSSI.m in Sources */,
+				8EB60EF6219C01F300F86415 /* EasyPeripheralManager.m in Sources */,
+				8EB60EF5219C01F300F86415 /* EasyCallback.m in Sources */,
+				8E8DC50B219ADBDA00E49BC6 /* main.m in Sources */,
+				8EB60EFD219C022E00F86415 /* PeripheralInfo.m in Sources */,
+				8EB60EF3219C01F300F86415 /* EasyToy.m in Sources */,
+				8EB60F2B219C518E00F86415 /* NSTimer+Add.m in Sources */,
+				8EB60EF8219C01F300F86415 /* EasySpeaker.m in Sources */,
+				8EB60F02219C029800F86415 /* CharacteristicViewController.m in Sources */,
+				8E8DC4FD219ADBD900E49BC6 /* AppDelegate.m in Sources */,
+				8EB60EF7219C01F300F86415 /* EasyCentralManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8E8DC501219ADBD900E49BC6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8E8DC502219ADBD900E49BC6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8E8DC506219ADBDA00E49BC6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8E8DC507219ADBDA00E49BC6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8E8DC50C219ADBDA00E49BC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8E8DC50D219ADBDA00E49BC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8E8DC50F219ADBDA00E49BC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = XMAP662JVG;
+				INFOPLIST_FILE = EasyBlue/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = easy.EasyBlue;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = Development;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8E8DC510219ADBDA00E49BC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = XMAP662JVG;
+				INFOPLIST_FILE = EasyBlue/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = easy.EasyBlue;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = Development;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8E8DC4F3219ADBD800E49BC6 /* Build configuration list for PBXProject "EasyBlue" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E8DC50C219ADBDA00E49BC6 /* Debug */,
+				8E8DC50D219ADBDA00E49BC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E8DC50E219ADBDA00E49BC6 /* Build configuration list for PBXNativeTarget "EasyBlue" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E8DC50F219ADBDA00E49BC6 /* Debug */,
+				8E8DC510219ADBDA00E49BC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8E8DC4F0219ADBD800E49BC6 /* Project object */;
+}
